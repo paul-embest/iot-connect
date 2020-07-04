@@ -1,0 +1,21 @@
+{
+    "name": "iot-connect",
+    "config": {
+        "mqtt-pub-buffer-max": {
+            "help": "There is a mqtt publish buffer, This specify the max msg number to buffer",
+            "value": 5
+        },
+        "mqtt-sub-buffer-max": {
+            "help": "There is a mqtt subscribe buffer, This specify the max msg number to buffer",
+            "value": 5
+        },
+        "mqtt-client-instance-max": {
+            "help": "The max IoTConnectClient instances to be created",
+            "value": 2
+        },
+        "mqtt-client-thread-stack-size": {
+            "help": "The IoTConnectClient instance thread stack size",
+            "value": 4096
+        }
+    }
+}
